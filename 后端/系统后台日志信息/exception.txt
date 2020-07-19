@@ -1,0 +1,72 @@
+2020-05-31 12:04:27:------------------RegressionTest-Start!!!------------------:
+
+2020-05-31 12:04:32:---RegressionTest---test.UserControllerJunitTest---:17182626---org.spring.springboot.controller.UserController.login(UserController.java:34)---success!
+
+2020-05-31 12:04:32:---RegressionTest---test.UserControllerJunitTest---:123133---org.spring.springboot.controller.UserController.login(UserController.java:34)---UserAccount-not-Exist-in-DataBase-error!
+
+2020-05-31 12:04:33:---RegressionTest---test.UserControllerJunitTest---:sadaldkj---org.spring.springboot.controller.UserController.findUserByUserAccount(UserController.java:21)---UserAccount-not-Exist-in-DataBase-error!
+
+2020-05-31 12:04:33:---RegressionTest---test.UserControllerJunitTest---:-1---org.spring.springboot.controller.UserController.findUserByUserId(UserController.java:27)---success!
+
+2020-05-31 12:04:33:---RegressionTest---test.UserControllerJunitTest---:TestUserAccount---org.spring.springboot.controller.UserController.userUpdatePassword(UserController.java:63)---success!
+
+2020-05-31 12:04:33:---RegressionTest---test.UserControllerJunitTest---:TestUserAccount---org.spring.springboot.controller.UserController.login(UserController.java:34)---Wrong-password-error!
+
+2020-05-31 12:04:33:---RegressionTest---test.UserControllerJunitTest---:TestUserAccount---org.spring.springboot.controller.UserController.userUpdatePassword(UserController.java:63)---success!
+
+2020-05-31 12:04:34:---RegressionTest---test.UserControllerJunitTest---:TestUserAccount---org.spring.springboot.controller.UserController.login(UserController.java:34)---success!
+
+2020-05-31 12:04:34:---RegressionTest---test.UserControllerJunitTest---:TestUserAccount---org.spring.springboot.controller.UserController.userLogout(UserController.java:70)---success!
+
+2020-05-31 12:04:34:---RegressionTest---test.UserControllerJunitTest---:TestUserAccount---org.spring.springboot.controller.UserController.userSignUp(UserController.java:55)---success!
+
+2020-05-31 12:04:35:---RegressionTest---test.DeviceControllerJunitTest---:-1---org.spring.springboot.controller.DeviceController.findDeviceByDevId(DeviceController.java:21)---success!
+
+2020-05-31 12:04:35:---RegressionTest---test.DeviceControllerJunitTest---:TestManagerAccount---org.spring.springboot.controller.DeviceController.findDeviceByManagerAccount(DeviceController.java:27)---success!
+
+2020-05-31 12:04:35:---RegressionTest---test.DeviceControllerJunitTest---:devAuth:0---org.spring.springboot.controller.DeviceController.findDeviceByDevAuth(DeviceController.java:33)---success!
+
+2020-05-31 12:04:35:---RegressionTest---test.DeviceControllerJunitTest---:22233---org.spring.springboot.controller.DeviceController.findDeviceByUserAccount(DeviceController.java:39)---userAccount-not-exist-in-DataBase-error!
+
+2020-05-31 12:04:36:---RegressionTest---test.DeviceControllerJunitTest---:TestUserAccount---org.spring.springboot.controller.DeviceController.lendDeviceByDevId(DeviceController.java:46)---Device-can-not-be-lend-to-you-error!
+
+2020-05-31 12:04:36:---RegressionTest---test.DeviceControllerJunitTest---:TestUserAccount---org.spring.springboot.controller.DeviceController.findDeviceByDevUserAccount(DeviceController.java:52)---success!
+
+2020-05-31 12:04:36:---RegressionTest---test.DeviceControllerJunitTest---:TestUserAccount---org.spring.springboot.controller.DeviceController.revertDeviceByDevId(DeviceController.java:59)---Device-can-not-be-reverted-error!
+
+2020-05-31 12:04:36:---RegressionTest---test.LogControllerJunitTest---:AllLogs---org.spring.springboot.controller.LogController.findAllLogs(LogController.java:21)---success!
+
+2020-05-31 12:04:36:---RegressionTest---test.LogControllerJunitTest---:-1---org.spring.springboot.controller.LogController.findLogsByUserAccount(LogController.java:27)---success!
+
+2020-05-31 12:04:36:---RegressionTest---test.LogControllerJunitTest---:-1---org.spring.springboot.controller.LogController.addFixLog(LogController.java:36)---Authentication-failed-AAedion-error!
+
+2020-05-31 12:04:36:---RegressionTest---test.LogControllerJunitTest---:-1---org.spring.springboot.controller.LogController.addDamageLog(LogController.java:45)---Can't-deal-device-with-devStatus:3-error!
+
+2020-05-31 12:04:36:---RegressionTest---test.LogControllerJunitTest---:-1---org.spring.springboot.controller.LogController.addFixLog(LogController.java:36)---success!
+
+2020-05-31 12:04:37:---RegressionTest---test.LogControllerJunitTest---:-1---org.spring.springboot.controller.LogController.addDamageLog(LogController.java:45)---Authentication-failed-AAedion-error!
+
+2020-05-31 12:04:37:---RegressionTest---test.LogControllerJunitTest---:-1---org.spring.springboot.controller.LogController.addFixLog(LogController.java:36)---Can't-deal-device-with-devStatus:1-error!
+
+2020-05-31 12:04:37:---RegressionTest---test.LogControllerJunitTest---:-1---org.spring.springboot.controller.LogController.addDamageLog(LogController.java:45)---success!
+
+2020-05-31 12:04:37:---RegressionTest---test.LogControllerJunitTest---:-1---org.spring.springboot.controller.LogController.addScrapLog(LogController.java:54)---Authentication-failed-AAedion-error!
+
+2020-05-31 12:04:37:---RegressionTest---test.LogControllerJunitTest---:-1---org.spring.springboot.controller.LogController.addScrapLog(LogController.java:54)---success!
+
+2020-05-31 12:04:37:---RegressionTest---test.LogControllerJunitTest---:TestUserAccount---org.spring.springboot.controller.LogController.findScrapLog(LogController.java:62)---success!
+
+2020-05-31 12:04:38:---RegressionTest---test.LogControllerJunitTest---:59---org.spring.springboot.controller.LogController.dealScrapLog(LogController.java:72)---success!
+
+2020-05-31 12:04:38:---RegressionTest---test.LogControllerJunitTest---:-1---org.spring.springboot.controller.LogController.addScrapLog(LogController.java:54)---success!
+
+2020-05-31 12:04:38:---RegressionTest---test.LogControllerJunitTest---:TestUserAccount---org.spring.springboot.controller.LogController.findScrapLog(LogController.java:62)---success!
+
+2020-05-31 12:04:38:---RegressionTest---test.LogControllerJunitTest---:TestUserAccount---org.spring.springboot.controller.LogController.findScrapLog(LogController.java:62)---success!
+
+2020-05-31 12:04:38:---RegressionTest---test.LogControllerJunitTest---:61---org.spring.springboot.controller.LogController.dealScrapLog(LogController.java:72)---success!
+
+2020-05-31 12:04:38:---RegressionTest---test.LogControllerJunitTest---:-1---org.spring.springboot.controller.DeviceController.findDeviceByDevId(DeviceController.java:21)---success!
+
+2020-05-31 12:04:38:------------------RegressionTest-End!!!------------------:
+

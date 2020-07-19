@@ -1,0 +1,7 @@
+RegressionTest\SendEmail.class
+RegressionTest\EmailControllerJunitTest.class
+RegressionTest\AttentionControllerJunitTest.class
+RegressionTest\UserControllerJunitTest.class
+RegressionTest\DeviceControllerJunitTest.class
+Regression.class
+RegressionTest\LogControllerJunitTest.class
